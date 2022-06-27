@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela Periódica</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tabela Periódica</h1>
+        <div class="container">
+            <div class="container1">
+                <div class="container3">
+                    <table id="infoH">
+                        <tbody>
+                            <tr>
+                                <td class="colunaEsquerda">Nome:</td>
+                                <td class="colunaDireita">Hidrogênio</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Símbolo:</td>
+                                <td class="colunaDireita">H</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Massa Atômica:</td>
+                                <td class="colunaDireita">1,008</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Número Atômico:</td>
+                                <td class="colunaDireita">1</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Ponto de fusão:</td>
+                                <td class="colunaDireita">-259,1°C</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Ponto de ebulição:</td>
+                                <td class="colunaDireita">-252,9°C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="infoLi">
+                        <tbody>
+                            <tr>
+                                <td class="colunaEsquerda">Nome:</td>
+                                <td class="colunaDireita">Lítio</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Símbolo:</td>
+                                <td class="colunaDireita">Li</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Massa Atômica:</td>
+                                <td class="colunaDireita">000</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Número Atômico:</td>
+                                <td class="colunaDireita">3</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Ponto de fusão:</td>
+                                <td class="colunaDireita">000°C</td>
+                            </tr>
+                            <tr>
+                                <td class="colunaEsquerda">Ponto de ebulição:</td>
+                                <td class="colunaDireita">000°C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="coluna1">
+                    <div class="naoMetais elemento" id="hidrogenio" onclick="informar('hidrogenio')">
+                        <div class="na">1</div>
+                        <div class="simbolo">H</div>
+                        <div class="nome">Hidrogênio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="litio" onclick="informar('litio')">
+                        <div class="na">3</div>
+                        <div class="simbolo">Li</div>
+                        <div class="nome">Lítio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="sodio">
+                        <div class="na">11</div>
+                        <div class="simbolo">Na</div>
+                        <div class="nome">Sódio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="potassio">
+                        <div class="na">19</div>
+                        <div class="simbolo">K</div>
+                        <div class="nome">Potássio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="rubidio">
+                        <div class="na">37</div>
+                        <div class="simbolo">Rb</div>
+                        <div class="nome">Rubídio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="cesio">
+                        <div class="na">55</div>
+                        <div class="simbolo">Cs</div>
+                        <div class="nome">Césio</div>
+                    </div>
+                    <div class="metaisAlcalinos elemento" id="francio">
+                        <div class="na">87</div>
+                        <div class="simbolo">Fr</div>
+                        <div class="nome">Frâncio</div>
+                    </div>
+                </div>
+                <div class="coluna2">
+                    <div class="alcalinosTerrosos elemento" id="berilio">
+                        <div class="na">4</div>
+                        <div class="simbolo">Be</div>
+                        <div class="nome">Berílio</div>
+                    </div>
+                    <div class="alcalinosTerrosos elemento" id="magnesio">
+                        <div class="na">12</div>
+                        <div class="simbolo">Mg</div>
+                        <div class="nome">Magnésio</div>
+                    </div>
+                    <div class="alcalinosTerrosos elemento" id="calcio">
+                        <div class="na">20</div>
+                        <div class="simbolo">Ca</div>
+                        <div class="nome">Cálcio</div>
+                    </div>
+                    <div class="alcalinosTerrosos elemento" id="estroncio">
+                        <div class="na">38</div>
+                        <div class="simbolo">Sr</div>
+                        <div class="nome">Estrôncio</div>
+                    </div>
+                    <div class="alcalinosTerrosos elemento" id="bario">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="alcalinosTerrosos elemento" id="radio">
+                        <div class="na">88</div>
+                        <div class="simbolo">Ra</div>
+                        <div class="nome">Rádio</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="escandio">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="itrio">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="colunaCentral">
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="metaisTransicao elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna13a17">
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna13a17">
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna13a17">
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna13a17">
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="naoMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="semiMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="outrosMetais elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna13a17">
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="halogenios elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="coluna18">
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="gasesNobres elemento" id="">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="lantanideosEactinidios">
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="lantanideos elemento" id="lantanideos">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+                <div class="lantanideosEactinidios">
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                    <div class="actinidios elemento" id="actinidios">
+                        <div class="na">56</div>
+                        <div class="simbolo">Ba</div>
+                        <div class="nome">Bário</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
