@@ -1,62 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap');
-*{
+
+* {
     padding: 0;
     bottom: 0;
     margin: 0;
     font-family: 'News Cycle', sans-serif;
 }
-main{
+
+main {
     text-align: center;
 }
-.container{
+
+.container {
     width: 1065px;
     justify-content: center;
     height: 560px;
     border: 2px solid #ddd;
     margin: 20px auto;
 }
-.container1{
+
+.container1 {
     position: relative;
     justify-content: right;
     width: 1065px;
     height: 420px;
-    background: white;    
+    background: white;
     display: flex;
 }
-.container2{
+
+.container2 {
     margin-top: 20px;
     justify-content: right;
     width: 1065px;
     height: 120px;
-    background: white;    
+    background: white;
 }
-.container3{
+
+.container3 {
     position: absolute;
     top: 0;
     left: 160px;
     height: 175px;
     width: 510px;
 }
-table tbody{
+
+table tbody {
     border-collapse: collapse;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
+
 table tbody tr:nth-last-of-type(odd) {
     background-color: #f1f1f1;
 }
-.colunaEsquerda{
+
+.colunaEsquerda {
     text-align: left;
     width: 250px;
 }
-.colunaDireita{
+
+.colunaDireita {
     text-align: left;
     width: 250px;
 }
-.lantanideosEactinidios{
+
+.lantanideosEactinidios {
     display: flex;
     justify-content: right;
 }
-.elemento{
+
+.elemento {
     width: 55px;
     height: 55px;
     border: solid 2px white;
@@ -64,11 +76,13 @@ table tbody tr:nth-last-of-type(odd) {
     display: flex;
     flex-wrap: wrap;
 }
-.elemento:hover{
+
+.elemento:hover {
     border: 2px solid red;
     cursor: pointer;
 }
-.na{
+
+.na {
     position: relative;
     margin-left: 2px;
     height: 15.2px;
@@ -76,57 +90,70 @@ table tbody tr:nth-last-of-type(odd) {
     text-align: center;
     font-size: 12px;
 }
-.simbolo{
+
+.simbolo {
     position: relative;
     width: 35px;
     height: 37px;
     font-size: 28px;
     text-align: center;
 }
-.nome{
+
+.nome {
     position: relative;
     width: 53.2px;
     text-align: center;
     font-size: 12px;
 }
-.naoMetais{
+
+.naoMetais {
     background: #72DBB5;
 }
-.metaisAlcalinos{
+
+.metaisAlcalinos {
     background: #F5CD2F;
 }
-.coluna2{
+
+.coluna2 {
     margin-top: 59px;
 }
-.colunaCentral{
+
+.colunaCentral {
     margin-top: 176px;
 }
-.coluna13a17{
+
+.coluna13a17 {
     margin-top: 57px;
 }
-.alcalinosTerrosos{
+
+.alcalinosTerrosos {
     background: #E7ED85;
 }
-.metaisTransicao{
+
+.metaisTransicao {
     background: #F592A8;
 }
-.lantanideos{
-    background: #B3D9F5;   
+
+.lantanideos {
+    background: #B3D9F5;
 }
-.actinidios{
+
+.actinidios {
     background: #A3A8F0;
 }
-.semiMetais{
+
+.semiMetais {
     background: #86BBC4;
 }
-.outrosMetais{
+
+.outrosMetais {
     background: #87B0F5;
 }
-.halogenios{
+
+.halogenios {
     background: #BAF2FF;
 }
-.gasesNobres{
+
+.gasesNobres {
     background: #3E7EDE;
 }
-
-
