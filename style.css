@@ -12,7 +12,7 @@ main {
 }
 
 .container {
-    width: 1065px;
+    width: 1265px;
     justify-content: center;
     height: 560px;
     border: 2px solid #ddd;
@@ -22,7 +22,7 @@ main {
 .container1 {
     position: relative;
     justify-content: right;
-    width: 1065px;
+    width: 1265px;
     height: 420px;
     background: white;
     display: flex;
@@ -31,7 +31,7 @@ main {
 .container2 {
     margin-top: 20px;
     justify-content: right;
-    width: 1065px;
+    width: 1265px;
     height: 120px;
     background: white;
 }
@@ -39,7 +39,7 @@ main {
 .container3 {
     position: absolute;
     top: 0;
-    left: 160px;
+    left: 360px;
     height: 175px;
     width: 510px;
 }
@@ -51,6 +51,9 @@ table tbody {
 
 table tbody tr:nth-last-of-type(odd) {
     background-color: #f1f1f1;
+}
+#legenda{
+    margin: 20px auto;
 }
 
 .colunaEsquerda {
