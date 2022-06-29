@@ -230,175 +230,175 @@ function informar(id){
         simbolo.innerHTML = "Mo";
         numeroAtomico.innerHTML = "42";
         massaAtomica.innerHTML = "95,95";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        pontoFusao.innerHTML = "2623°C";
+        pontoEbulicao.innerHTML = "4639°C";
     }else if (id === "tungstenio") {
         infoBlock()        
         nome.innerHTML = "Tungstênio";
         simbolo.innerHTML = "W";
         numeroAtomico.innerHTML = "74";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "183,84";
+        pontoFusao.innerHTML = "3422°C";
+        pontoEbulicao.innerHTML = "5555°C";
     }else if (id === "seaborgio") {
         infoBlock()        
         nome.innerHTML = "Seabórgio";
         simbolo.innerHTML = "Sg";
         numeroAtomico.innerHTML = "106";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "269";
+        pontoFusao.innerHTML = "Desconhecido";
+        pontoEbulicao.innerHTML = "Desconhecido";
     }else if (id === "manganes") {
         infoBlock()        
         nome.innerHTML = "Manganês";
         simbolo.innerHTML = "Mn";
         numeroAtomico.innerHTML = "25";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "54,938";
+        pontoFusao.innerHTML = "1246°C";
+        pontoEbulicao.innerHTML = "2061°C";
     }else if (id === "tcnecio") {
         infoBlock()        
         nome.innerHTML = "Tcnécio";
         simbolo.innerHTML = "Tc";
         numeroAtomico.innerHTML = "43";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "98";
+        pontoFusao.innerHTML = "2157°C";
+        pontoEbulicao.innerHTML = "4265°C";
     }else if (id === "renio") {
         infoBlock()        
         nome.innerHTML = "Rênio";
         simbolo.innerHTML = "Re";
         numeroAtomico.innerHTML = "75";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "186,21";
+        pontoFusao.innerHTML = "3186°C";
+        pontoEbulicao.innerHTML = "5596°C";
     }else if (id === "bohrio") {
         infoBlock()        
         nome.innerHTML = "Bóhrio";
         simbolo.innerHTML = "Bh";
         numeroAtomico.innerHTML = "107";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "270";
+        pontoFusao.innerHTML = "Desconhecido";
+        pontoEbulicao.innerHTML = "Desconhecido";
     }else if (id === "ferro") {
         infoBlock()        
         nome.innerHTML = "Ferro";
         simbolo.innerHTML = "Fe";
         numeroAtomico.innerHTML = "26";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "55,845";
+        pontoFusao.innerHTML = "1538°C";
+        pontoEbulicao.innerHTML = "2861°C";
     }else if (id === "rutenio") {
         infoBlock()        
         nome.innerHTML = "Rutênio";
         simbolo.innerHTML = "Ru";
         numeroAtomico.innerHTML = "44";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "101,07";
+        pontoFusao.innerHTML = "2334°C";
+        pontoEbulicao.innerHTML = "4150°C";
     }else if (id === "osmio") {
         infoBlock()        
         nome.innerHTML = "Ósmio";
         simbolo.innerHTML = "Os";
         numeroAtomico.innerHTML = "76";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "190,23";
+        pontoFusao.innerHTML = "3033°C";
+        pontoEbulicao.innerHTML = "5012°C";
     }else if (id === "hassio") {
         infoBlock()        
         nome.innerHTML = "Hássio";
         simbolo.innerHTML = "Hs";
         numeroAtomico.innerHTML = "108";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "277";
+        pontoFusao.innerHTML = "Desconhecido";
+        pontoEbulicao.innerHTML = "Desconhecido";
     }else if (id === "cobalto") {
         infoBlock()        
         nome.innerHTML = "Cobalto";
         simbolo.innerHTML = "Co";
         numeroAtomico.innerHTML = "27";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "58,933";
+        pontoFusao.innerHTML = "1495°C";
+        pontoEbulicao.innerHTML = "2900°C";
     }else if (id === "rodio") {
         infoBlock()        
         nome.innerHTML = "Ródio";
         simbolo.innerHTML = "Rh";
         numeroAtomico.innerHTML = "45";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "102,91";
+        pontoFusao.innerHTML = "1964°C";
+        pontoEbulicao.innerHTML = "3695°C";
     }else if (id === "iridio") {
         infoBlock()        
         nome.innerHTML = "Irídio";
         simbolo.innerHTML = "Ir";
         numeroAtomico.innerHTML = "77";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "192,22";
+        pontoFusao.innerHTML = "2466°C";
+        pontoEbulicao.innerHTML = "4428°C";
     }else if (id === "meitnerio") {
         infoBlock()        
         nome.innerHTML = "Meitnério";
         simbolo.innerHTML = "Mt";
         numeroAtomico.innerHTML = "109";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "278";
+        pontoFusao.innerHTML = "Desconhecido";
+        pontoEbulicao.innerHTML = "Desconhecido";
     }else if (id === "niquel") {
         infoBlock()        
         nome.innerHTML = "Níquel";
         simbolo.innerHTML = "Ni";
         numeroAtomico.innerHTML = "28";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "55,693";
+        pontoFusao.innerHTML = "1455°C";
+        pontoEbulicao.innerHTML = "2913°C";
     }else if (id === "paladio") {
         infoBlock()        
         nome.innerHTML = "Paládio";
         simbolo.innerHTML = "Pd";
         numeroAtomico.innerHTML = "46";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "106,42";
+        pontoFusao.innerHTML = "1554,90°C";
+        pontoEbulicao.innerHTML = "2963°C";
     }else if (id === "platina") {
         infoBlock()        
         nome.innerHTML = "Platina";
         simbolo.innerHTML = "Pt";
         numeroAtomico.innerHTML = "78";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "195,08";
+        pontoFusao.innerHTML = "1768,3°C";
+        pontoEbulicao.innerHTML = "3825°C";
     }else if (id === "darmistadtio") {
         infoBlock()        
         nome.innerHTML = "Darmstádtio";
         simbolo.innerHTML = "Ds";
         numeroAtomico.innerHTML = "110";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "281";
+        pontoFusao.innerHTML = "Desconhecido";
+        pontoEbulicao.innerHTML = "Desconhecido";
     }else if (id === "cobre") {
         infoBlock()        
         nome.innerHTML = "Cobre";
         simbolo.innerHTML = "Cu";
         numeroAtomico.innerHTML = "29";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "63,546";
+        pontoFusao.innerHTML = "1084,62°C";
+        pontoEbulicao.innerHTML = "2562°C";
     }else if (id === "prata") {
         infoBlock()        
         nome.innerHTML = "Prata";
         simbolo.innerHTML = "Ag";
         numeroAtomico.innerHTML = "47";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
-        pontoEbulicao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "107,87";
+        pontoFusao.innerHTML = "961,78°C";
+        pontoEbulicao.innerHTML = "2162°C";
     }else if (id === "ouro") {
         infoBlock()        
         nome.innerHTML = "Ouro";
         simbolo.innerHTML = "Au";
         numeroAtomico.innerHTML = "79";
-        massaAtomica.innerHTML = "00";
-        pontoFusao.innerHTML = "000°C";
+        massaAtomica.innerHTML = "196,97";
+        pontoFusao.innerHTML = "°C";
         pontoEbulicao.innerHTML = "000°C";
     }else if (id === "roentgenio") {
         infoBlock()        
