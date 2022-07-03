@@ -1,10 +1,8 @@
-
+var tabela = document.querySelector('#info');
 function infoNone(){
-    var tabela = document.querySelector('#info');
     tabela.style.display = "none";
 }
 function infoBlock(){
-    var tabela = document.querySelector('#info');
     tabela.style.display = "block";
 }
 infoNone();
